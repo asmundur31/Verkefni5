@@ -66,4 +66,5 @@ h2 {
 .card__meginmal {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
