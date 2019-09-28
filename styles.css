@@ -25,7 +25,7 @@ h2 {
 
 .card__fyrirsogn {
   font-size: calc(24em/16);
-  line-height: calc(20em/24);
+  line-height: 1em;
   word-break: break-word;
   padding: calc(10em/24);
 }
