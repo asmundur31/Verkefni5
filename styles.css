@@ -34,16 +34,36 @@ h2 {
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .card {
   display: flex;
+  flex-direction: column;
   background-color: #fff;
   border: 2px solid #aaa;
   border-radius: 5px;
   max-width: calc(470em/16);
   max-height: calc(320em/16);
   margin-bottom: calc(10em/16);
+  overflow: scroll;
+}
 
+.card__utan-um-mynd {
+  display: flex;
+}
+ .card__mynd {
+  width: 100%;
+  object-fit: contain;
+  max-width: 150px;
+  padding-right: calc(20em/16);
+ }
+.card--aftast {
+  order: -1;
+}
+
+.card__meginmal {
+  display: flex;
+  flex-direction: row;
 }
